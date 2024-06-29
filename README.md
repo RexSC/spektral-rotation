@@ -1,4 +1,4 @@
-# spektral-rotation
+# spektralrotation.py
 pip
 ```
 pip install numpy soundfile scipy
