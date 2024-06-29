@@ -35,7 +35,7 @@ def skibidi(input, output,flip=True):
     print(f"saved {output}")
 
 if __name__ == "__main__":
-    inputFile = input()
+    inputFile = input("lydfilens navn: ")
     skibidi(inputFile, 'rotated.wav') # roteret 90 grader med uret.
     skibidi(inputFile, 'swapped.wav',False) # swappet spektrogram
     skibidi('swapped.wav', 'inverted.wav') # lodret flip af inputtet
