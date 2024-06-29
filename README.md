@@ -1,7 +1,9 @@
 # spektral-rotation
+pip
 ```
 pip install numpy soundfile scipy
-'''
+```
+script
 ```python
 import numpy as np
 import soundfile as sf
